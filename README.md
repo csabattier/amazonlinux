@@ -5,13 +5,13 @@
 ### Configure Repo
 edit file /etc/yum.repo/amazonlinux-nagios.repo
 
->[amazonlinux-nagios]
->name=Nagios for Amazon Linux 2023
->baseurl=https://raw.githubusercontent.com/csabattier/amazonlinux/main/packages
->enabled=1
->repo_gpgcheck=0
->type=rpm
->gpgcheck=0
+`[amazonlinux-nagios]
+name=Nagios for Amazon Linux 2023
+baseurl=https://raw.githubusercontent.com/csabattier/amazonlinux/main/packages
+enabled=1
+repo_gpgcheck=0
+type=rpm
+gpgcheck=0`
 
 ### Install Package
 
